@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Nghe Nhạc</string>
+    <string name="trangchu_fragment">Trang chủ</string>
+    <string name="Timkiem_fragment">Tìm Kiếm</string>
+</resources>

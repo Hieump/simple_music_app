@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:scaleType="centerCrop"
+            android:id="@+id/imageViewallalbum"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/icon_love" />
+    </FrameLayout>
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#060606"
+        android:gravity="left"
+        android:maxWidth="200dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:lines="2"
+        android:id="@+id/textViewtenallalbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playlist tháng 5" />
+
+    <TextView
+        android:textSize="13sp"
+        android:id="@+id/textViewtencasialbum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khánh Phương" />
+</LinearLayout>

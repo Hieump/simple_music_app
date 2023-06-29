@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textViewTitlePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hôm Nay Nghe Gì" />
+
+    <ListView
+        android:layout_below="@+id/textViewTitlePlaylist"
+        android:id="@+id/listviewPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+
+    </ListView>
+
+    <TextView
+
+
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/icon_more"
+        android:drawablePadding="10dp"
+        android:layout_below="@+id/listviewPlaylist"
+        android:id="@+id/textViewviewmorePlaylist"
+        android:textSize="18sp"
+        android:textColor="#913677"
+        android:background="@drawable/custombackgroundbanner"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Thêm PlayList" />
+
+</RelativeLayout>

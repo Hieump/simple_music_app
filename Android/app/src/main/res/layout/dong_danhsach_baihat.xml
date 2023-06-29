@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewdanhsachindex"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <TextView
+            android:singleLine="true"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:layout_toRightOf="@+id/textViewdanhsachindex"
+            android:id="@+id/textViewtenbaihat"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên ca khúc" />
+
+        <TextView
+
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:textColor="#979797"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textViewdanhsachindex"
+            android:id="@+id/textViewtencasi"
+            android:layout_below="@+id/textViewtenbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ca Sĩ" />
+
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/imageViewluotthichdanhsachbaihat"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/icon_love" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
